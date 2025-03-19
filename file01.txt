@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Webpage</title>
+</head>
+<body>
+    <h1>Welcome to My First Webpage</h1>
+    <p>This is a simple webpage created with HTML. I hope you like it!</p>
+    <a href="https://www.example.com">Visit Example.com</a>
+</body>
+</html>
+
