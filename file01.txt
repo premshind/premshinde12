@@ -9,4 +9,60 @@
     <a href="https://www.example.com">Visit Example.com</a>
 </body>
 </html>
+print("Hello, World!")
+# Input two numbers
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# Add them
+sum = num1 + num2
+
+# Display the result
+print(f"The sum is {sum}")
+# Input two numbers
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# Add them
+sum = num1 + num2
+
+# Display the result
+print(f"The sum is {sum}")
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+num = int(input("Enter a number: "))
+print(f"Factorial of {num} is {factorial(num)}")
+n = int(input("Enter the number of terms: "))
+a, b = 0, 1
+
+print("Fibonacci Sequence:")
+for _ in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
+num = int(input("Enter a number: "))
+
+if num > 1:
+    for i in range(2, int(num**0.5)+1):
+        if num % i == 0:
+ num = int(input("Enter a number: "))
+
+ if num > 1:
+     for i in range(2, int(num**0.5)+1):
+             if num % i == 0:
+	                 print(f"{num} is not a prime number")
+			             break
+				         else:
+					         print(f"{num} is a prime number")
+						 else:
+						     print(f"{num} is not a prime number")
+						     print(f"{num} is not a prime number")
+            break
+    else:
+        print(f"{num} is a prime number")
+else:
+    print(f"{num} is not a prime number")
 
