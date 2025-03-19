@@ -1,0 +1,73 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, World!" << endl;
+    return 0;
+}
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
+    if (num % 2 == 0)
+        cout << num << " is even." << endl;
+    else
+        cout << num << " is odd." << endl;
+    return 0;
+}
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num, factorial = 1;
+    cout << "Enter a positive integer: ";
+    cin >> num;
+    for (int i = 1; i <= num; ++i) {
+        factorial *= i;
+    }
+    cout << "Factorial of " << num << " is " << factorial << endl;
+    return 0;
+}
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, t1 = 0, t2 = 1, nextTerm;
+    cout << "Enter number of terms: ";
+    cin >> n;
+    cout << "Fibonacci Series: ";
+    for (int i = 1; i <= n; ++i) {
+        cout << t1 << " ";
+        nextTerm = t1 + t2;
+        t1 = t2;
+        t2 = nextTerm;
+    }
+    return 0;
+}
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num, flag = 0;
+    cout << "Enter a positive integer: ";
+    cin >> num;
+    if (num <= 1) {
+        cout << num << " is not a prime number." << endl;
+        return 0;
+    }
+    for (int i = 2; i <= num / 2; ++i) {
+        if (num % i == 0) {
+            flag = 1;
+            break;
+        }
+    }
+    if (flag == 0)
+        cout << num << " is a prime number." << endl;
+    else
+        cout << num << " is not a prime number." << endl;
+    return 0;
+}
+
