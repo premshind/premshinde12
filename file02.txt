@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic HTML Page</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a simple HTML webpage.</p>
+    <img src="image.jpg" alt="Sample Image">
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Bar</title>
+</head>
+<body>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+</head>
+<body>
+    <h1>Welcome to My Profile</h1>
+    <h2>Hobbies</h2>
+    <p>I love painting and reading.</p>
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Page</title>
+</head>
+<body>
+    <h1>Quiz</h1>
+    <p>What is the capital of France?</p>
+    <input type="radio" name="question" value="Paris"> Paris<br>
+    <input type="radio" name="question" value="London"> London<br>
+    <input type="radio" name="question" value="Berlin"> Berlin<br>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
+
